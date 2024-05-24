@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shoes.com</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Shoes.com</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">Mais Vendidos</a></li>
+            <li><a href="">Perfil</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>Novas ofertas todos os dias!</h1>
+        <p>Encontre os melhores calçados aqui</p>
+        <button>Compre agora</button>
+    </section>
+
+    <h1 class="pheading">Novidades</h1>
+        <section class="sec">
+            <div class="products">
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/01.jpg" alt=""></div>
+                    <div class="desc">Masculino</div>
+                    <div class="title">Nike Air Versitile</div>
+                    <div class="box">
+                        <div class="price">R$300</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/02.webp" alt=""></div>
+                    <div class="desc">Feminino</div>
+                    <div class="title">Nike Court Vision</div>
+                    <div class="box">
+                        <div class="price">R$250</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/03.jpg" alt=""></div>
+                    <div class="desc">Masculino</div>
+                    <div class="title">Tênis Adidas</div>
+                    <div class="box">
+                        <div class="price">R$200</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/04.jpg" alt=""></div>
+                    <div class="desc">Masculino</div>
+                    <div class="title">Tênis Lacoste</div>
+                    <div class="box">
+                        <div class="price">R$150</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/05.jpg" alt=""></div>
+                    <div class="desc">Feminino</div>
+                    <div class="title">Tênis Esportivo Nike</div>
+                    <div class="box">
+                        <div class="price">R$250</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/07.webp" alt=""></div>
+                    <div class="desc">Masculino</div>
+                    <div class="title">Nike Hyperdunk</div>
+                    <div class="box">
+                        <div class="price">R$650</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/06.webp" alt=""></div>
+                    <div class="desc">Feminino</div>
+                    <div class="title">Nike Dunk</div>
+                    <div class="box">
+                        <div class="price">R$200</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- prod -->
+                <div class="card">
+                    <div class="img"><img src="imgs/06.jpg" alt=""></div>
+                    <div class="desc">Masculino</div>
+                    <div class="title">Nike Air Force</div>
+                    <div class="box">
+                        <div class="price">R$280</div>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrights <a href="">Shoes.Com</a></p>
+        </footer>
+        <!-- Script da responsividade -->
+        <script>
+            $(".menu-btn").click(function(){
+                $(".navbar .menu").toggleClass("active");
+                $(".menu-btn .i").toggleClass("active");
+            });
+            
+        </script>
+
+</body>
+</html>
